@@ -30,7 +30,7 @@ const Home = () => {
 		<Layout pageName='Home'>
 			<div className='flex justify-center'>
 				<div className={`${classes.blurEffect(blur)}`}>
-					<StyledBox className={`${classes.flexWrapCenter} p-4`}>
+					<StyledBox className={`${classes.flexWrapCenter} p-20 sm:p-8`}>
 						<Profile
 							name='Diego Muñoz'
 							ocupation='Software Engineering student'

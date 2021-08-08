@@ -15,7 +15,7 @@ export const Projects = () => {
 	const { blur } = useContext(BlurContext);
 
 	useEffect(async () => {
-		const response = await fetch('/api/projects');
+		const response = await fetch('/api/project/get/all');
 		const data = await response.json();
 		setProjects(data.projects);
 		setSearchableProjects(data.projects);

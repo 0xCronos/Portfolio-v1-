@@ -31,7 +31,7 @@ const SkillsList = [
 export const Skills = () => {
 	return (
 		<div>
-			<h2 className='text-4xl sm:text-4xl xl:text-5xl tracking-wide text-eastern-blue text-center font-light' >My knowledge & skills</h2>
+			<h4 className='text-4xl sm:text-4xl xl:text-5xl tracking-wide text-eastern-blue text-center font-light' >My knowledge & skills</h4>
 			<div className='flex text-center py-10 px-10 sm:px-0'>
 				<div className='grid xl:grid-flow-col xl:grid-cols-3 grid-flow-row gap-x-8 gap-y-8'>
 					{SkillsList.map((skill) => (

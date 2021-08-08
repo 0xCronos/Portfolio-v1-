@@ -11,9 +11,9 @@ export const Contact = () => {
     return (
         <div className={`${flexColWrapCenter} items-center px-4`}>
             <div className='sm:flex-0 2xl:flex-1 2xl:mr-8 px-0 md:px-40'>
-                <h2 className={`text-4xl sm:text-4xl xl:text-5xl tracking-wide text-eastern-blue text-center font-light`}>
+                <h4 className={`text-4xl sm:text-4xl xl:text-5xl tracking-wide text-eastern-blue text-center font-light`}>
                     Interested in working together? <span className='text-aquamarine'>Let's talk!</span>
-                </h2>
+                </h4>
                 <p className='sm:text-base md:text-lg xl:text-xl text-primary tracking-wider whitespace-pre-line text-center my-8'>
                     If you are interested in my work, have any feedback
                     <br />

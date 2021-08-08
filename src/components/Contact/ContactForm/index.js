@@ -39,6 +39,9 @@ export const ContactForm = ({ setSent }) => {
 		});
 
 		if (response.status === 200) {
+			setName('');
+			setEmail('');
+			setMessage('');
 			setSent(true);
 		} else {
 			alert('There has been an error processing your request, try again later.');
@@ -57,6 +60,7 @@ export const ContactForm = ({ setSent }) => {
 						placeholder='Enter your fullname'
 						setValue={setName}
 						maxLength={25}
+						value={name}
 					/>
 				</div>
 				<div className='ml-5 sm:ml-10'>
@@ -68,6 +72,7 @@ export const ContactForm = ({ setSent }) => {
 						placeholder='Enter your Email'
 						setValue={setEmail}
 						maxLength={320}
+						value={email}
 					/>
 				</div>
 			</div>
@@ -77,6 +82,7 @@ export const ContactForm = ({ setSent }) => {
 				name='message'
 				placeholder='Write your message here...'
 				setValue={setMessage}
+				value={message}
 			/>
 			<div className={`${classes.flexColCenter} items-center`}>
 				<input className={`${classes.primaryBtn} ${classes.hoverPrimaryBtn} px-4 py-2`} type='submit' value='Send' />

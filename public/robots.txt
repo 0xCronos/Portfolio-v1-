@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
-
 Disallow: /404
+Sitemap: https://dmcoder.dev/sitemap.xml

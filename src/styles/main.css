@@ -22,4 +22,8 @@
     .blur{
         filter: blur(0.5rem);
     }
+    .grecaptcha-badge {
+        visibility: hidden;
+        display: none;
+    }
 }

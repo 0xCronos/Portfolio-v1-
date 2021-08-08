@@ -10,7 +10,7 @@ export const Skill = ({ title, technologies, img, description, alt }) => {
 				<h2 className='text-aquamarine text-lg pt-4'>{title}</h2>
 				<p className='px-2 py-4'>{description}</p>
 			</div>
-			<p className='border-t-2 border-ebony-clay text-tertiary text-md px-2 py-4'>{technologies}</p>
+			<h2 className='border-t-2 border-ebony-clay text-tertiary text-md px-2 py-4'>{technologies}</h2>
 		</div>
 	)
 };

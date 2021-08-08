@@ -22,7 +22,7 @@ export const Footer = () => {
 					<Networks color='text-primary' margin='m-16' />
 				</div>
 				<h3 className={`${footerTitle}`}>Handcrafted by Diego Muñoz - © 2021</h3>
-				<h4 className='text-tertiary'>Made with ☕ and ❤️</h4>
+				<h5 className='text-tertiary'>Made with ☕ and ❤️</h5>
 			</div>
 		</footer>
 	);

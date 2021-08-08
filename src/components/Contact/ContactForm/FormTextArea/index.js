@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { classes } from '../../../../styles';
 
-export const FormTextArea = ({ label, htmlFor, name, placeholder, setValue }) => {
+export const FormTextArea = ({ label, htmlFor, name, placeholder, setValue, ...rest }) => {
 	const [error, setError] = useState(false);
 
 	const validateInput = (e) => {
@@ -29,6 +29,7 @@ export const FormTextArea = ({ label, htmlFor, name, placeholder, setValue }) =>
 				rows='6'
 				maxLength='450'
 				onChange={validateInput}
+				{...rest}
 			/>
 			{error && (
 				<div className={classes.flexCenter}>

@@ -6,6 +6,7 @@ const Portfolio = () => {
 		<Layout pageName='Portfolio'>
 			<div className='mb-10'>
 				<Projects />
+				<h1 className={classes.backgroundColor}></h1>
 			</div>
 		</Layout>
 	);
